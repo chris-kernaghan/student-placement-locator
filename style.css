@@ -244,7 +244,7 @@ nav li, a, button {
 /* Title Section */
 
 #title {
-    background-image: url('/dog-at-height.jpg');
+    background-image: url('./dog-at-height.jpg');
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
