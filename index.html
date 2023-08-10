@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Work Placements</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=css-tricks.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+</head>
+<body>
+  <!-- Mobile Message -->
+  <div class="mobile-message">
+    <h2>Please use application on larger screen</h2>
+</div>
+
+    <!-- Navigation Section -->
+    <header>
+        <!-- Insert Logo -->
+        <!-- <img src="" alt="logo" class="logo"> -->
+        <h1 class="logo">AMP</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#title">Title</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#map">Map</a></li>
+            </ul>
+        </nav>
+        <a href="#title" class="contact-button">
+            <button id="show-overlay">Contact Us</button>
+        </a>
+    </header>
+    <!-- Contact Us Form -->
+    <div class="form-background" id="overlay">    
+        <div class="contact-form" action="" >
+            <i class="fa-regular fa-circle-xmark close-icon" id="close-overlay"></i>
+            <div class="contact-header">
+                <h3 id="message">Get in touch!</h3>
+            </div>
+                <div class="contact-content">
+                    <i class="fa-solid fa-envelopes-bulk"></i>                    
+                    <form action="https://formspree.io/f/mrgwpqlv" method="POST" id="contact-input">
+                        <p id="my-form-status"></p>
+                        <!-- User Name Input -->
+                        <div class="form-group">
+                            <label for="name-input" class="form-label">Full Name
+                            <input type="text" class="form-input" id="name-input" name="name" placeholder="Joe Bloggs" required minlength="3" maxlength="100">
+                            </label>
+                        </div>
+                        <!-- User Email Input -->
+                        <div class="form-group">
+                            <label for="email-input" class="form-label">Email
+                            <input type="email" class="form-input" id="email-input" placeholder="youremail@address.com" name="email" required>
+                            </label>
+                        </div>
+                        <!-- User Message -->
+                        <div class="form-group">
+                            <label for="message-input" class="form-label">Message
+                            <textarea rows="7" class="form-input" id="message-input" placeholder="How can we help you?" name="message" required></textarea>
+                            </label>
+                        </div>
+            <button type="submit">Send</button>            
+                    </form>
+                </div>
+        </div>      
+    </div>
+    <!-- Title Section -->
+    <section id="title">
+        <div class="title-container">
+            <h1 class="title-info">Enhancing your view of animal management placement opportunities</h1> 
+            <p class="locator-info">Not sure about placements? Use our map to find out details of any placements near you.</p>
+        </div>
+    </section>
+    <!-- Information Section -->
+    <section id="about-section">
+        <div class="about-container">
+            <div class="info-card">
+                <div class="box">
+                    <div class="icon">
+                        <div class="icon-box"><i class="fa-solid fa-user fa-3x"></i></div>
+                    </div>
+                     <div class="card-content">
+                        <h3>Our Placement Co-Ordinator</h3>
+                        <p>Our Placement Co-ordinator is Christine Costello. Christine travels out to placements to complete checks and insurance details. She also visits you out on your placements to get an understanding of how you are finding the work. If you have a placement in mind and it cannot be found here or for more infromation please contact Christine by using the contact button at the top of the page.</p>
+                     </div>
+                </div>
+            </div>
+            <div class="about-container">
+                <div class="info-card">
+                    <div class="box">
+                        <div class="icon">
+                            <div class="icon-box"><i class="fa-solid fa-building fa-3x"></i></div>
+                        </div>
+                         <div class="card-content">
+                            <h3>Why is placement important?</h3>
+                            <p>There are a wide range of placement available whether you are interested in domestic, agricultural, veterinary, physiotherapy, agriculture, conservation and many more. Work placement is so important to the course as you will gain valuable skills in an area in with you find interesting and may want to pursue a career. This is fantastic for your CV and future job prospects!</p> 
+                         </div>
+                    </div>
+                </div>
+                <div class="about-container">
+                    <div class="info-card">
+                        <div class="box">
+                            <div class="icon">
+                                <div class="icon-box"><i class="fa-solid fa-map fa-3x"></i></div>
+                            </div>
+                             <div class="card-content">
+                                <h3>What does placement involve?</h3>
+                                <p>Your work placement will take place on one day per week. This will be a day out of college to carry this out. It is up to you to find and contact a placement and they will arrange with you how long your working day will be and what roles and responsibilities you may take on while you are there. You are required to complete up to 150 hours for Level 3 Animal Management per year. </p> 
+                             </div>
+                        </div>
+                    </div>                      
+        </div>
+    </section>
+    <!-- Map Section -->
+    <section id="map">
+        <!-- Postcode Container -->
+        <div class="postcode-container">
+            <!-- Postcode Form -->
+            <div class="form-container">
+                <h3>Placements Map</h3> 
+                <p>On the map you will be able to see blue markers for the 3 main campuses that the animal course is taught from. You will also be able to identify placements in which previous students have attended.</p>        
+                <ul>
+                    <li>Type your postcode or local town into the below box and click on 'find postcode' button in order for the map to locate your area of search</li>
+                    <li>Use the + and - buttons on the map in order to scroll out and in on your location</li>
+                    <li>You will see ( <i class="fas fa-shield-dog"></i> ) icon which represents previous student placements</li>
+                    <li>Clicking on an icon will provide you with information about that placement including their address and website</li>
+                </ul>
+                <form class="postcode-form">
+                    <label for="postcode">Enter postcode or local town</label>
+                    <input type="text" id="postcode" placeholder="Postcode/ Local Town" required>
+                    <button type="button" id="find-postcode" class="send-button">Locate</button>
+                    <button type="button" id="clear-postcode" class="clear-button">Clear</button>
+                </form>
+            </div>
+            <!-- Map -->
+            <div class="map">
+                <div id="map-container"></div>
+            </div>
+        </div>   
+    </section>
+    
+  
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxpXsSm4n0Sea9Jybv5BVjlZx_1iItzCc&libraries=places"></script>
+</body>
+</html>

@@ -1,0 +1,922 @@
+[
+    {
+      "id": 1,
+      "name": "Advance Veterinary Care",
+      "lat": 54.506533746012686, 
+      "lng": -6.078491302876062,
+      "address" : "Rosevale Industrial Estate, 7 Moira Road, Knockmore, Lisburn, BT28 1RW",
+      "description": "Bus 551 from Lisburn bus centre. On the bus route from Moira/Lurgan",
+      "website": "https://www.advancevetcare.co.uk/home.html",
+      "nature" : "Veterinary"
+    },
+    {
+      "id": 2,
+      "name": "Alpha Dog Grooming",
+      "lat": 54.46489216054761, 
+      "lng": -6.336747957150321,
+      "address" : "53A Church Place, Lurgan, BT66 6HD",
+      "description": "Bus 551 from Lisburn bus centre. On the bus route from Moira/Lurgan.",
+      "website": "https://alphadoggroomingsalon.co.uk/",
+      "nature" : "Grooming" 
+    },    
+    {
+      "id": 3,
+      "name": "Aqua Dog Recreation & Hydrotherapy Centre",
+      "lat": 54.506137047403534,  
+      "lng": -6.077222016370445,
+      "address" : "6 Rosevale Industrial Estate, Moira Road, Lisburn, BT28 1RW",
+      "description": "Bus 551 from Lisburn bus centre. On the bus route from Moira/Lurgan",
+      "website": "https://alphadoggroomingsalon.co.uk/",
+      "nature" : "Hydrotherapy" 
+    },    
+    {
+      "id": 4,
+      "name": "Ardnacashel Equine Yard",
+      "lat": 54.50441062052017,  
+      "lng": -5.737943131711365,
+      "address" : "51 Tullynagee Road, Comber, BT23 5SE",
+      "description": "Not on main bus/train routes",
+      "website": "https://ardnacashelequestrian.co.uk/",
+      "nature" : "Equine" 
+    },    
+    {
+      "id": 5,
+      "name": "Ashvale Boarding Kennels",
+      "lat": 54.51283842561101,  
+      "lng": -5.86097663171088, 
+      "address" : "15 Lisnashallagh road, Carryduff, BT8 8AP",
+      "description": "Not on main bus/train routes",
+      "website": "http://ashvale-kennels.co.uk/",
+      "nature" : "Boarding" 
+    },    
+    {
+      "id": 6,
+      "name": "Ashwood Veterinary Clinic",
+      "lat": 54.59235465059802, 
+      "lng": -5.810976760541466,
+      "address" : "71 Comber Road, Dundonald, BT16 2AE",
+      "description": "Bus 6b from Bangor",
+      "website": "https://www.ashwoodvets.com/",
+      "nature" : "Veterinary" 
+    },    
+    {
+      "id": 7,
+      "name": "Assisi Animal Santuary",
+      "lat": 54.61966328071187,  
+      "lng": -5.679219431704658,
+      "address" : "1 Old Bangor Road, Newtownards, BT23 7PU",
+      "description": "Bus 6 from Bangor",
+      "website": "https://www.assisi-ni.org/",
+      "nature" : "Rescue" 
+    },   
+    {
+      "id": 8,
+      "name": "Bailey's Pad Boarding Kennels",
+      "lat": 54.64228121819376, 
+      "lng": -5.60379628937374,
+      "address" : "16 Bailie Road, Bangor, BT19 7QW",
+      "description": "From Ards take bus 7 to Cottown School, then a 10 minute walk",
+      "website": "https://www.facebook.com/p/Baileys-Pad-Boarding-Kennels-100057122723174/",
+      "nature" : "Boarding" 
+    },    
+    {
+      "id": 9,
+      "name": "Ballykine Boarding Kennels & Cattery",
+      "lat": 54.58513989729137,  
+      "lng": -5.941599189377093,
+      "address" : "103a Lisburn Road, Ballynahinch, BT24 8TS",
+      "description": "Possibly bus 26a from Bhinch to Annahilt",
+      "website": "https://alphadoggroomingsalon.co.uk/",
+      "nature" : "Boarding" 
+    },
+    {
+      "id": 10,
+      "name": "Ballyknock Riding School",
+      "lat": 54.453203283264536,   
+      "lng": -6.16133324520873,
+      "address" : "38 Ballyknock Road, Hillsborough, BT26 6EF",
+      "description": "Not on main bus/train routes",
+      "website": "https://www.facebook.com/ballyknockridingschool/",
+      "nature" : "Equine" 
+    },
+    {
+      "id": 11,
+      "name": "Barkin Beauties",
+      "lat": 54.550825532931086,    
+      "lng": -6.005623302873471,
+      "address" : "195A Kingsway, Dunmurry, BT17 9SB",
+      "description": "Bus 523 from Lisburn",
+      "website": "https://www.barkinbeauties.com/",
+      "nature" : "Grooming" 
+    },
+    {
+      "id": 12,
+      "name": "Barkingham Palace",
+      "lat": 54.50725515594005,    
+      "lng": -6.069947331711205,
+      "address" : "1 Drumbeg Drive, Lisburn, BT28 1NY",
+      "description": "In Old Warren, bus 525 from Lisburn buscentre",
+      "website": "https://www.facebook.com/barkinghampal",
+      "nature" : "Grooming" 
+    },
+    {
+      "id": 13,
+      "name": "Barry`s vet`s",
+      "lat": 54.41566650947174,   
+      "lng": -6.156501175444565, 
+      "address" : "Old Station Business Park, Dromore, BT25 1AA",
+      "description": "Bus 538 from Lisburn to Dromore",
+      "website": "http://barrysvetsdromore.com/",
+      "nature" : "Veterinary" 
+    },
+    {
+      "id": 14,
+      "name": "Birch Bark Boarding Kennels",
+      "lat": 54.48240037942645,   
+      "lng": -6.5576960592708975,
+      "address" : "26 Birches Road, Portadown, BT62 1TL",
+      "description": "Not on main bus/train routes",
+      "website": "https://www.birchbarkkennels.co.uk/",
+      "nature" : "Boarding" 
+    },
+    {
+      "id": 15,
+      "name": "Bonny`s Caravan Park and Animal Farm",
+      "lat": 54.21079082130235,    
+      "lng": -5.910498290675797,
+      "address" : "Tullybrannigan Road, Newcastle, BT33 0PD",
+      "description": "Bus 320c from Newcastle",
+      "website": "https://www.facebook.com/pages/Bonnys-Caravan-Park/101213616701089",
+      "nature" : "Petting Farm" 
+    },
+    {
+      "id": 16,
+      "name": "Braemar Vet`s",
+      "lat": 54.56617257624622,   
+      "lng": -5.974684302777476,
+      "address" : "29 Upper Lisburn Road, Belfast, BT10 0GX",
+      "description": "Bus 538 From Lisburn bus centre",
+      "website": "https://www.braemarvetclinic.co.uk/",
+      "nature" : "Veterinary" 
+    },
+    {
+      "id": 17,
+      "name": "Brookvale Kennels",
+      "lat": 54.370169273665674,   
+      "lng": -5.713955345213568, 
+      "address" : "51 The Craig Road, Downpatrick, BT30 9BG",
+      "description": "Not on main bus/train routes",
+      "website": "https://brookvaleboarding.com/",
+      "nature" : "Boarding" 
+    },
+    {
+      "id": 18,
+      "name": "C & J`s Animal Park",
+      "lat": 54.46240702394487,    
+      "lng": -6.474350123758723,
+      "address" : "30 Derryall Road, Portadown, BT62 1PL",
+      "description": "Not on main bus/train routes",
+      "website": "https://www.cjsanimalpark.com/",
+      "nature" : "Zoological" 
+    },
+    {
+      "id": 19,
+      "name": "Castle Veterinary Group Downpatrick",
+      "lat": 54.332130691239016,    
+      "lng": -5.716008631721349,
+      "address" : "36 Church Street, Downpatrick, BT30 6EJ",
+      "description": "Main buses to Downpatrick",
+      "website": "https://www.castlevetgroup.co.uk/",
+      "nature" : "Veterinary" 
+    },
+    {
+      "id": 20,
+      "name": "Castle Veterinary Group Castlewellen",
+      "lat": 54.25315593300698,
+      "lng": -5.95731888754992,
+      "address" : "8 Dublin Road, Castlewellan, BT31 9AQ",
+      "description": "Bus 17a to Castlewellan from Downpatrick",
+      "website": "https://www.castlevetgroup.co.uk/",
+      "nature" : "Veterinary" 
+    },   
+    {
+      "id": 21,
+      "name": "Cat`s Protection",
+      "lat": 54.5980896800834, 
+      "lng": -5.768655472445752,
+      "address" : "Belfast Adoption Centre, 270 Belfast Road, Dundonald, BT16 1UE",
+      "description": "Bus 6b from Bangor to Dundonald",
+      "website": "https://www.cats.org.uk/belfast",
+      "nature" : "Rescue" 
+    },  
+    {
+      "id": 22,
+      "name": "Cedar Grove Veterinary Clinic",
+      "lat": 54.57448660316331, 
+      "lng": -5.882839595784527,
+      "address" : "132 Upper Knockbreda Road, Belfast, BT6 9QB",
+      "description": "On Knock dual carriageway, multiple buses but driver may be best",
+      "website": "https://www.cedargrovevets.com/",
+      "nature" : "Veterinary" 
+    }, 
+    {
+      "id": 23,
+      "name": "Cedarmount Veterinary Clinic",
+      "lat": 54.660560732346624, 
+      "lng": -5.681552001259651,
+      "address" : "67 Bryansburn Rd, Bangor, BT20 3SD",
+      "description": "Bus 302g from Bangor bus centre",
+      "website": "https://www.cedarmountvets.co.uk/en-gb",
+      "nature" : "Veterinary" 
+    },
+    {
+      "id": 24,
+      "name": "Claire Ferris Veterinary Clinic",
+      "lat": 54.60585508341537, 
+      "lng": -5.572509802870262,
+      "address" : "1 Killaughey Rd South, Millisle, Newtownards, BT22 2DY",
+      "description": "No direct bus from Bangor",
+      "website": "https://www.facebook.com/claireferris.vets",
+      "nature" : "Veterinary" 
+    },
+    {
+      "id": 25,
+      "name": "Clanrye Veterinary Clinic Newry",
+      "lat": 54.18459796807995, 
+      "lng": -6.332028538477118,
+      "address" : "1 Belfast Road Newry BT34 1EF",
+      "description": "Bus 238 to Newry from Sprucefield, Bus 240 from Downpatrick to Newry",
+      "website": "https://www.clanryevets.co.uk/",
+      "nature" : "Veterinary" 
+    },
+    {
+      "id": 26,
+      "name": "Clanrye Veterinary Clinic Kilkeel",
+      "lat": 54.06710777082224,  
+      "lng": -6.0150763587254765,
+      "address" : "44 Newry Road Kilkeel BT34 4DU",
+      "description": "Bus 238 to Newry from Sprucefield, Bus 240 from Downpatrick to Newry, Bus 17 from Downpatrick to Newcastle, the bus 37 to Kilkeel",
+      "website": "https://www.clanryevets.co.uk/",
+      "nature" : "Veterinary" 
+    },  
+    {
+      "id": 27,
+      "name": "Combers Ards & Eastside Veterinary Clinic",
+      "lat": 54.594244790576894,   
+      "lng": -5.69599574520053,
+      "address" : "4 North Street, Newtownards, BT23 4DE",
+      "description": "Clinics are in town, so they are accessible by bus",
+      "website": "https://acevetsni.co.uk/",
+      "nature" : "Veterinary" 
+    },  
+    {
+      "id": 28,
+      "name": "Combers Ards & Eastside Veterinary Clinic",
+      "lat": 54.551527933072535,   
+      "lng": -5.746551487532572,
+      "address" : "19 Castle Street, Comber, BT23 5DY",
+      "description": "Clinics are in town, so they are accessible by bus",
+      "website": "https://acevetsni.co.uk/",
+      "nature" : "Veterinary" 
+    },  
+    {
+      "id": 29,
+      "name": "Craig Barr Grooming",
+      "lat": 54.665516698095864,   
+      "lng": -5.6450585568443525,
+      "address" : "4 Sheridan Drive, Bangor, BT20 5NQ",
+      "description": "Bus 302a from Bangor",
+      "website": "https://craigbarrgroomin2.wixsite.com/craigbarrgrooming",
+      "nature" : "Grooming" 
+    },  
+    {
+      "id": 30,
+      "name": "Cromlyn House Veterinary Hospital",
+      "lat": 54.44948601805972,   
+      "lng": -6.100102460549756,
+      "address" : "50 Old Coach Road, Hillsborough, BT26 6PB",
+      "description": "Bus 538 from Lisburn to Hillsborough",
+      "website": "https://cromlynvets.co.uk/",
+      "nature" : "Veterinary" 
+    },
+    {
+      "id": 31,
+      "name": "Crosskennan Lane Animal Sanctuary",
+      "lat": 54.74927066256714,    
+      "lng": -6.151033845191465,
+      "address" : "26 Crosskennan Lane, Ballynoe, BT41 2QY",
+      "description": "Not too far off the junction for Antrim Hospital on the M2, however no public transport and up a long lane",
+      "website": "https://www.crosskennanlane.co.uk/",
+      "nature" : "Rescue" 
+    },
+    {
+      "id": 32,
+      "name": "Dapper Dawgs Grooming salon",
+      "lat": 54.58533227608805,     
+      "lng": -5.699142731706655,
+      "address" : "3A Jubliee Road, Newtownards, BT23 4YH",
+      "description": "From Bangor bus 6 to Ards, then change in Ards to bus 5a. This part is a 4 min bus journey so probably walkable",
+      "website": "https://www.facebook.com/dapperdogsgroomingglenavy",
+      "nature" : "Grooming" 
+    }, 
+    {
+    "id": 33,
+    "name": "Dashin Hounds",
+    "lat": 54.59451367388773,      
+    "lng": -5.814787129859711,
+    "address" : "12C Comber Road, Dundonald, BT16 2AB",
+    "description": "Bus 6b from Bangor to Dundonald",
+    "website": "https://www.dashinhounds.com/",
+    "nature" : "Boarding" 
+  }, 
+  {
+    "id": 34,
+    "name": "The Dog`s House",
+    "lat": 54.58074681380198,       
+    "lng": -5.616875389377338,
+    "address" : "The Dogs House, 31 Ballyback Road, Newtownards,BT22 2AS",
+    "description": "Bus 6 from Bangor to Ards, bus 10a from Ards to Ballyblack",
+    "website": "http://julies-dogs.appspot.com/",
+    "nature" : "Boarding" 
+  },  
+  {
+    "id": 35,
+    "name": "Doggie Barber Shop",
+    "lat": 54.55785231578256,       
+    "lng": -5.7574130740378555, 
+    "address" : "91 Belfast Road, Comber, Newtownards, BT23 5QP",
+    "description": "Just outside Comber, may be walkable but driver may prefer",
+    "website": "https://www.facebook.com/doggiebarbershopcomber",
+    "nature" : "Grooming" 
+  }, 
+  {
+    "id": 36,
+    "name": "Doggie Play Belfast",
+    "lat": 54.59504394077785,        
+    "lng": -5.893166945200481, 
+    "address" : "Bloomfield Industrial Centre, Connswater,Newtownards Road, Belfast, BT5 5AW",
+    "description": "Bus 502a from Bangor Buscentre directly to Connswater (53 mins), From Belfast take Glider G1, buses go every few minutes. Ample car parking for drivers",
+    "website": "https://doggieplay.co.uk/",
+    "nature" : "Day Boarding" 
+  },
+  {
+    "id": 37,
+    "name": "Doggo`s Doggy Day Care",
+    "lat": 54.41480926112556,        
+    "lng": -6.142300014837787, 
+    "address" : "11 Mossvale Road, Dromore, BT25 1DG",
+    "description": "Bus 538 from Lisburn to Dromore",
+    "website": "https://www.facebook.com/doggosdoggydaycaredromore",
+    "nature" : "Day Boarding" 
+  },
+  {
+    "id": 38,
+    "name": "Dogwood Pet Resort",
+    "lat": 54.61745501972532,         
+    "lng": -5.713277816363986, 
+    "address" : "108 Crawfordsburn Road, Newtownards, BT23 4UJ",
+    "description": "Close to Clandyeboye Lodge Hotel, Not on main bus/train routes",
+    "website": "https://dogwoodpetresort.com/",
+    "nature" : "Day Boarding"
+  },  
+  {
+    "id": 39,
+    "name": "Dogzone NI",
+    "lat": 54.55425389654141,          
+    "lng": -5.847104872460712, 
+    "address" : "250 Ballygowan Road, Crossacreevy, Belfast",
+    "description": "Bus 515 from Europa buscentre/Lanyon Place 34 min journey,",
+    "website": "http://www.dogzoneni.co.uk/",
+    "nature" : "Boarding"
+  }, 
+  {
+    "id": 40,
+    "name": "Downe Veterinary Clinic",
+    "lat": 54.33093142484452,          
+    "lng": -5.714024545215827,  
+    "address" : "The Terrace, 35 Church Street, Downpatrick, BT30 6EH",
+    "description": "In Downpatrick so accessible by bus",
+    "website": "http://downvets.com/",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 41,
+    "name": "Earlswood Veterinary Hospital",
+    "lat": 54.59929601461071,           
+    "lng": -5.8689891605410445,  
+    "address" : "193 Belmont Road, Belfast, BT4 2AE",
+    "description": "Bus 4 from Bangor to Old Holywood Road",
+    "website": "https://www.earlswoodveterinary.com/",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 42,
+    "name": "Exploris Aquarium",
+    "lat": 54.38181248297272,            
+    "lng": -5.548849843366445,  
+    "address" : "1 The Rope Walk, 5c Castle Street, Portaferry, BT22 1NZ",
+    "description": "From Bangor bus 502a to Holywood. From Lisburn direct train to Holywood train station",
+    "website": "http://www.explorisni.com/",
+    "nature" : "Conservation"
+  },
+  {
+    "id": 43,
+    "name": "Garden Lodge Veterinary Clinic",
+    "lat": 54.62903527376933,            
+    "lng": -5.841275758692909,  
+    "address" : "397 Old Holywood Road, Holywood, BT18 9QH",
+    "description": "From Bangor bus 502a to Holywood. From Lisburn direct train to Holywood train station.",
+    "website": "http://www.gardenlodgevets.co.uk/",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 44,
+    "name": "Glenburn Veterinary Surgeons",
+    "lat": 54.625082620676096,             
+    "lng": -6.209553231704366,  
+    "address" : "7 Nutts Corner Road, Crumlin, BT29 4BW",
+    "description": "From Lisburn bus 109 or 103 to Crumlin.",
+    "website": "http://www.glenburnvets.co.uk/",
+    "nature" : "Veterinary"
+  }, 
+  {
+    "id": 45,
+    "name": "Glenn Veterinary Clinic",
+    "lat": 54.66367646264803,           
+    "lng": -5.660522774031679,  
+    "address" : "9 Ballyholme Rd, Bangor BT20 5JH",
+    "description": "Bus 302c from Bangor but it is a 10 minute walk from bus centre.",
+    "website": "https://www.glennvetclinic.co.uk/",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 46,
+    "name": "Glitzy`s Grooming",
+    "lat": 54.65697194841888,            
+    "lng": -5.674408072185642,  
+    "address" : "102 Abbey Street, Bangor, BT20 4JB",
+    "description": "Not on main bus/train routes but 10 min walk from Bangor campus",
+    "website": "https://www.facebook.com/Glitzysdoggrooming/?locale=en_GB",
+    "nature" : "Grooming"
+  },
+  {
+    "id": 47,
+    "name": "Gortlands Veterinary Clinic",
+    "lat": 54.58278837719175,             
+    "lng": -5.837479001286174,  
+    "address" : "162-164 Gilnahirk Road, Belfast, BT5 7QQ",
+    "description": "Bus 4e from Lanyon Place to Gilnahirk",
+    "website": "http://www.gortlandsvets.com/",
+    "nature" : "Veterinary"
+  }, 
+  {
+    "id": 48,
+    "name": "Gransha Equestrian Centre",
+    "lat": 54.62040685114308,              
+    "lng": -5.636747745199009,  
+    "address" : "10a Kerr's Road, Bangor, BT19 7QD",
+    "description": "Bus 3 from Bangor to Donaghadee, from Donaghadee take bus 7 towards Kerr`s Road",
+    "website": "http://www.granshaequestrian.com/",
+    "nature" : "Equine"
+  },  
+  {
+    "id": 49,
+    "name": "Greenmount Veterinary Clinic",
+    "lat": 54.4210681647133,               
+    "lng": -6.424608802881008,  
+    "address" : "72 Gilford Road, Portadown, BT63 5EG",
+    "description": "Bus 538 from Banbridge",
+    "website": "http://www.portadownvets.co.uk/",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 50,
+    "name": "Kids Pony Foundation",
+    "lat": 54.46529209731737,                
+    "lng": -5.949398145208031,  
+    "address" : "Drennan Hill, 1 Drennan Road, Lisburn, BT27 6UR",
+    "description": "Not on main bus/train routes",
+    "website": "https://kidsponyfoundation.org/",
+    "nature" : "Equine"
+  }, 
+  {
+    "id": 51,
+    "name": "Kinedale Donkeys",
+    "lat": 54.40566466548031,                 
+    "lng": -5.9328022740467325,  
+    "address" : "38 Chestnut Road, Ballynahinch, BT248JQ",
+    "description": "Not on main bus/train routes",
+    "website": "http://www.kinedaledonkeys.co.uk/",
+    "nature" : "Equine"
+  },
+  {
+    "id": 52,
+    "name": "K9 Grooming",
+    "lat": 54.59479283638744,                  
+    "lng": -5.868804528013263,  
+    "address" : "5 Sandown Road, Belfast, BT5 6GT",
+    "description": "Bus 502a from Bangor towards Connswater",
+    "website": "https://k9groomingstudio.com/",
+    "nature" : "Grooming"
+  }, 
+  {
+    "id": 53,
+    "name": "Lagan Valley Vets Moira",
+    "lat": 54.480240604887,                   
+    "lng": -6.227182631712769,  
+    "address" : "49 Main Street, Moira, BT67 OLQ",
+    "description": "Bus 551 from Lisburn",
+    "website": "https://www.laganvalleyvets.com/",
+    "nature" : "Veterinary"
+  }, 
+  {
+    "id": 54,
+    "name": "Lagan Valley Vets Dromore",
+    "lat": 54.415212004409646,                 
+    "lng": -6.149598831716558,  
+    "address" : "7 Lottery Place, Dromore, BT25 1BW",
+    "description": "Bus 38 from Lisburn",
+    "website": "https://www.laganvalleyvets.com/",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 55,
+    "name": "Laganvale Open Farm and Soft Play",
+    "lat": 54.53164457973372,                 
+    "lng": -6.004254845204184,  
+    "address" : "55a Sandy Lane, Lambeg, Lisburn, BT27 5TL",
+    "description": "Not on main bus/train routes but 20 min walk from Hilden station",
+    "website": "http://www.laganvalefarm.com/",
+    "nature" : "Petting Farm"
+  },
+  {
+    "id": 56,
+    "name": "Lisburn Dog Warden",
+    "lat": 54.50096447783467,                
+    "lng": -6.041151843086299,  
+    "address" : "9 Blaris Industrial Estate, Altona Road, Lisburn, BT27 5QB",
+    "description": "Not on main bus/train routes but walkable from parts of Lisburn",
+    "website": "Contact Christine Costello for more information",
+    "nature" : "Rescue"
+  },  
+  {
+    "id": 57,
+    "name": "Lisburn Dog Groomer`s",
+    "lat": 54.525879744405756,                 
+    "lng": -6.079975157129582,  
+    "address" : "135A Ballymacash , Lisburn, BT28 3ET",
+    "description": "Bus 103 or 325d from Lisburn to Ballymacash shops",
+    "website": "http://www.lisburndoggroomers.com/",
+    "nature" : "Grooming"
+  }, 
+  {
+    "id": 58,
+    "name": "Little Pawz and Happy Catz Pet Hotel",
+    "lat": 54.63038643109147,                
+    "lng": -5.772982745198413 ,  
+    "address" : "22 Ballymoney Road, Craigantlet, Newtownards, BT23 4TG",
+    "description": "Not on main bus/train routes",
+    "website": "https://www.facebook.com/groups/189810466007",
+    "nature" : "Boarding"
+  },  
+  {
+    "id": 59,
+    "name": "Lurgan Veterinary Clinic",
+    "lat": 54.452799461748725,                 
+    "lng": -6.314672201330504,  
+    "address" : "45 Banbridge Road, Lurgan, BT66 7HG",
+    "description": "Bus 56 from Lurgan",
+    "website": "http://lurganvet.co.uk/",
+    "nature" : "Veterinary"
+  }, 
+  {
+    "id": 60,
+    "name": "Lusk Riding School",
+    "lat": 54.48778647603939,                  
+    "lng": -5.924964818217956,  
+    "address" : "48 Knockany Road, Lisburn, BT27 6YB",
+    "description": "Near the Temple Crossroads, off the A24 road, about a 20 min walk from bus stop",
+    "website": "http://www.luskhorsesireland.com/",
+    "nature" : "Equine"
+  }, 
+  {
+    "id": 61,
+    "name": "Mid Antrim Animal Sanctuary",
+    "lat": 54.71670721372369,                  
+    "lng": -6.173932102863796,  
+    "address" : "Greystone Road, Hurtletoot, BT41 2QN",
+    "description": "From Antrim bus 108c to Greystone Road",
+    "website": "https://midantrim.org/",
+    "nature" : "Petting Farm"
+  },                                                          {
+    "id": 62,
+    "name": "Mountpanther Farm Park",
+    "lat": 54.27780248273654,                   
+    "lng": -5.844597216383722,  
+    "address" : "30 Dundrum Road, Newcastle, BT30 8SJ",
+    "description": "take bus 404 towards Newcastle",
+    "website": "https://www.mountpanther.com/",
+    "nature" : "Petting Farm"
+  },
+  {
+    "id": 63,
+    "name": "Mourne Trail Riding Centre",
+    "lat": 54.2342252218044,                   
+    "lng": -5.913531370723188,  
+    "address" : "96 Castlewellan Road, Newcastle, BT33 0JP",
+    "description": "Bus 18 between Newcastle and Castlewellan",
+    "website": "http://www.mournetrailridingcentre.co.uk/",
+    "nature" : "Equine"
+  }, 
+  {
+    "id": 64,
+    "name": "Party Animals",
+    "lat": 54.59155086615861,                   
+    "lng": -5.695895102871093,  
+    "address" : "15 Court Street, Newtownards, BT23 6NX",
+    "description": "Bus 5a from Newtownards, short journey",
+    "website": "https://partyanimalsni.co.uk/",
+    "nature" : "Reptile"
+  }, 
+  {
+    "id": 65,
+    "name": "Pawdressers",
+    "lat": 54.58537146945509,                   
+    "lng": -5.702666045201048,  
+    "address" : "Strangford Park, unit B7, Jubilee Road, Newtownards, BT23 4YH",
+    "description": "Bus 5a from Newtownards, short walk from South Street",
+    "website": "https://www.facebook.com/thepawdressers",
+    "nature" : "Grooming"
+  }, 
+  {
+    "id": 66,
+    "name": "Paws Doggy Daycare",
+    "lat": 54.48684060162909,                   
+    "lng": -5.969105187536369,  
+    "address" : "131 A Saintfield Road, Lisburn, BT27 6YW",
+    "description": "Not on main bus/train routes",
+    "website": "https://www.pawsdoggydaycareni.com/",
+    "nature" : "Day Boarding"
+  },  
+  {
+    "id": 67,
+    "name": "Vet rehab NI",
+    "lat": 54.598020257037206,                    
+    "lng": -5.89481008594014,  
+    "address" : "East Belfast Enterprise Park, Unit 21, 308 Albertbridge Road, Belfast, BT5 4GX",
+    "description": "Bus 502b from Bangor",
+    "website": "http://www.vetrehabni.co.uk/",
+    "nature" : "Hydrotherapy"
+  }, 
+  {
+    "id": 68,
+    "name": "Peninsula Vets",
+    "lat": 54.483036029769934,                     
+    "lng": -5.490989418218233,  
+    "address" : "38 Manse Road, Kircubbin, BT22 1DR",
+    "description": "From Bangor bus 6 to Ards, then bus 10d from Ards to Kiucubbin",
+    "website": "http://www.peninsulaveterinaryclinic.co.uk/",
+    "nature" : "Veterinary"
+  }, 
+  {
+    "id": 69,
+    "name": "Pet Warehouse NI",
+    "lat": 54.47661175846876,                     
+    "lng": -6.076347101322394,  
+    "address" : "5 Harrys Road, Hillsborough, BT26 6HJ",
+    "description": "Not on main bus/train routes",
+    "website": "http://www.petwarehouseni.co.uk/",
+    "nature" : "Pet Store"
+  }, 
+  {
+    "id": 70,
+    "name": "Rathgael Vets",
+    "lat": 54.63902153572688,                 
+    "lng": -5.681990801021919,  
+    "address" : "24 Brook Lane, Bangor, BT19 1ST",
+    "description": "From Bangor take bus 6 towards Rathgael",
+    "website": "https://rathgaelvets.co.uk/",
+    "nature" : "Veterinary"
+  },  
+  {
+    "id": 71,
+    "name": "Rathlane Farm/Stables",
+    "lat": 54.57276156676028,                
+    "lng": -6.269911578437395,  
+    "address" : "1 Ballyvannon Road, Ballinderry, BT28 2LB",
+    "description": "Not on main bus/train routes",
+    "website": "https://www.facebook.com/RathlaneFarm",
+    "nature" : "Equine"
+  },
+  {
+    "id": 72,
+    "name": "Ringhaddy Pet Lodge",
+    "lat": 54.450164854179924,                 
+    "lng": -5.641670631714534,  
+    "address" : "25 Ringhaddy Rd, Killinchy, Newtownards BT23 6TU",
+    "description": "Not on main bus/train routes",
+    "website": "https://www.facebook.com/people/Ringhaddy-Pet-Lodge/100060450858257/",
+    "nature" : "Boarding"
+  }, 
+  {
+    "id": 73,
+    "name": "Riverhill Stud",
+    "lat": 54.40184657710599,                
+    "lng": -5.827032289387718,  
+    "address" : "128 Ballynahinch Rd, Crossgar, Downpatrick BT30 9HU",
+    "description": "Not on main bus/train routes",
+    "website": "https://www.facebook.com/RiverhillStud",
+    "nature" : "Equine"
+  }, 
+  {
+    "id": 74,
+    "name": "St. Patrick`s Way Stables",
+    "lat": 54.34310979772972,                 
+    "lng": -5.671772647061561,  
+    "address" : "Mearne Rd, Saul, Downpatrick, BT30 6SY",
+    "description": "Not on main bus/train routes",
+    "website": "https://www.facebook.com/St-Patricks-Way-Stables-474715965895539",
+    "nature" : "Equine"
+  },
+  {
+    "id": 75,
+    "name": "Streamvale Open Farm",
+    "lat": 54.58022390557367,                 
+    "lng": -5.817230874036542,  
+    "address" : "38 Ballyhanwood Rd, Belfast, BT5 7SN",
+    "description": "From Belfast take bus 4c to Dundonald then walk.",
+    "website": "http://www.streamvale.com/",
+    "nature" : "Petting Farm"
+  }, 
+  {
+    "id": 76,
+    "name": "Tannaghmore Gardens & Animal Farm",
+    "lat": 54.46504575049447,                 
+    "lng": -6.383809617971066,  
+    "address" : "100 Silverwood Road, Lurgan, BT66 6LN",
+    "description": "From Lurgan take bus 55 towards Silverwood.",
+    "website": "https://www.facebook.com/pages/Tannaghmore-Gardens-and-Animal-Farm/661659040591379",
+    "nature" : "Petting Farm"
+  },
+  {
+    "id": 77,
+    "name": "The Ark Open Farm",
+    "lat": 54.616368497978605,                
+    "lng": -5.679003947045673,  
+    "address" : "296 Bangor Rd, Newtownards BT23 7PH",
+    "description": "Bus 6 from Bangor.",
+    "website": "https://www.thearkopenfarm.co.uk/",
+    "nature" : "Petting Farm"
+  },
+  {
+    "id": 78,
+    "name": "The Groomer",
+    "lat": 54.59488209182979,               
+    "lng": -5.805269330117267,    
+    "address" : "Unit 2, 734 Upper Newtownards Rd, Belfast BT16 1RJ",
+    "description": "Bus 6b from Bangor to Dundonald.",
+    "website": "https://www.facebook.com/ThegroomerNI",
+    "nature" : "Grooming"
+  },
+  {
+    "id": 79,
+    "name": "Tullymurry Equestrian Centre",
+    "lat": 54.302396221228534,                
+    "lng": -5.79795430104148,    
+    "address" : "145 Ballydugan Rd, Downpatrick BT30 8HH",
+    "description": "Bus to Newry, but it might not stop as it is an Express or bus 404 towards Newcastle.",
+    "website": "http://www.tullymurryequestrian.com/",
+    "nature" : "Equine"
+  },
+  {
+    "id": 80,
+    "name": "Tullynewbank Stables LTD",
+    "lat": 54.58914659614088,                 
+    "lng": -6.193572685943179,    
+    "address" : "25 Tullynewbank Rd, Glenavy, Crumlin BT29 4PQ",
+    "description": "From Lisburn bus 103 to Glenavy (Johnston Park) then walk up Tullynewbank Road. Would be better suited to driver.",
+    "website": "http://www.tullymurryequestrian.com/",
+    "nature" : "Equine"
+  },
+  {
+    "id": 81,
+    "name": "Tullyraine Equine Clinic",
+    "lat": 54.35254272718335,                 
+    "lng": -6.217494601038552,    
+    "address" : "37 Quarry Rd, Banbridge BT32 3TW",
+    "description": "From Banbridge take bus 538 towards Spratt`s Turn, then walk up Quarry Road.",
+    "website": "https://www.facebook.com/tullyraine",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 82,
+    "name": "USPCA Hospital",
+    "lat": 54.196241478846204,                  
+    "lng": -6.345921502894052,    
+    "address" : "Units 5, 6 Carnbane East Industrial Estate, Newry BT35 6PQ",
+    "description": "Not on main bus/train routes but 20 min walk from nearest train station",
+    "website": "https://www.facebook.com/USPCAOfficial",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 83,
+    "name": "World of Owls",
+    "lat": 54.73349509201483,                  
+    "lng": -6.3193187451924135,    
+    "address" : "32 Mount Shalgus Lane, Randalstown, Antrim BT41 3LE",
+    "description": "Not on main bus/train routes.",
+    "website": "https://www.facebook.com/tullyraine",
+    "nature" : "Zoological"
+  },
+  {
+    "id": 84,
+    "name": "WWT Castle Espie Wetlands Centre",
+    "lat": 54.530441813469054,                  
+    "lng": -5.696072185687417,     
+    "address" : "78 Ballydrain Rd, Comber, Newtownards BT23 6EA",
+    "description": "Not on main bus/train routes.",
+    "website": "https://www.wwt.org.uk/wetland-centres/castle-espie/",
+    "nature" : "Conservation"
+  },
+  {
+    "id": 85,
+    "name": "Vets 4 Pets: Newtownards",
+    "lat": 54.59138023038081,                  
+    "lng": -5.69074846721749,      
+    "address" : "2a Portaferry Rd, Newtownards BT23 8NN",
+    "description": "To be updated.",
+    "website": "http://www.vets4pets.com/",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 85,
+    "name": "Vets 4 Pets: Belfast",
+    "lat": 54.5819987027088,                   
+    "lng": -5.95916143015033,      
+    "address" : "Unit 5, Inside Pets at Home, Balmoral Plaza, Boucher Rd, Belfast BT12 6HR",
+    "description": "To be updated.",
+    "website": "http://www.vets4pets.com/",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 86,
+    "name": "Vets 4 Pets: Bangor",
+    "lat": 54.655777032492544,                  
+    "lng": -5.684358635921142,      
+    "address" : "24 Belfast Rd, Bangor BT20 3PU",
+    "description": "To be updated.",
+    "website": "http://www.vets4pets.com/",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 87,
+    "name": "Vets 4 Pets: Sprucefield",
+    "lat": 54.49085817394291,                   
+    "lng": -6.05666681235913,      
+    "address" : "Sprucefield Shopping Centre, Hillsborough Rd, Lisburn BT27 5UN",
+    "description": "To be updated.",
+    "website": "http://www.vets4pets.com/",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 88,
+    "name": "Vets 4 Pets: Lisburn",
+    "lat": 54.50958080823814,                   
+    "lng": -6.059604805611936,      
+    "address" : "168 Longstone St, Lisburn BT28 1TT",
+    "description": "To be updated.",
+    "website": "http://www.vets4pets.com/",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 89,
+    "name": "Vets 4 Pets: Newtownabbey",
+    "lat": 54.65558715355646,                   
+    "lng": -5.918345676776731,      
+    "address" : "5, 5a Longwood Rd, Newtownabbey BT37 9UL",
+    "description": "To be updated.",
+    "website": "http://www.vets4pets.com/",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 90,
+    "name": "Vets 4 Pets: Carrickfergus",
+    "lat": 54.718169956412886,                    
+    "lng": -5.820581341194333,      
+    "address" : "6 Woodburn Rd, Carrickfergus BT38 8HQ",
+    "description": "To be updated.",
+    "website": "http://www.vets4pets.com/",
+    "nature" : "Veterinary"
+  },
+  {
+    "id": 91,
+    "name": "Vets 4 Pets: Larne",
+    "lat": 54.85050047897005,                     
+    "lng": -5.814309376776731,      
+    "address" : "46a Circular Rd, Larne BT40 1HW",
+    "description": "To be updated.",
+    "website": "http://www.vets4pets.com/",
+    "nature" : "Veterinary"
+  }
+  ]
+  

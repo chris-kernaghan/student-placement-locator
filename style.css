@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins&display=swap');
+
+html,
+body {
+    /* scroll-behavior: smooth; */
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: '';
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 997;
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgba(49,49,51,0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    border-bottom: 3px solid #00a19b;    
+}
+
+nav li {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+nav li, a, button {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+    
+}
+
+.logo {
+    position: relative;
+    left: 30px;
+    font-family: Fredoka, sans-serif;
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #00a19b;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.contact-button button {
+    padding: 9px 25px;
+    background-color: #00a19b;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.contact-button button:hover {
+    background: rgba(0,161,155,0.5);
+    transition: 0.3s all linear;
+}
+
+/* Contact Us Form */
+
+.form-background {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 998;
+}
+
+.contact-form {
+    z-index: 999;
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    max-width: 95%;
+    width: 650px;
+    animation: modalopen 1s;
+    border-top: 7px solid #00a19b;
+    border-bottom: 7px solid #00a19b;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.close-icon {
+    float: right;
+    color: rgb(31, 16, 51);
+    font-size: 26px;
+    position: relative;
+    top: 20px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.contact-header {
+    background-color: #faf9f6;
+    color: rgb(31, 16, 51);
+    padding: 15px;
+}
+
+.contact-header h3 {
+    margin: 0;
+    font-family: Fredoka, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.contact-content {
+    padding: 20px;
+    background-color: #faf9f6;
+    text-align: center;
+}
+
+.fa-envelopes-bulk {
+    color: rgb(31, 16, 51);
+    font-size: 65px;
+    padding-bottom: 15px;
+}
+
+#my-form-status {
+    color: #00a19b;
+    display: block;
+    font-family: Fredoka, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+/* Form */
+
+.form-group {
+    height: auto;
+    padding: 15px;
+}
+
+.form-input {
+    width: 97%;
+    padding: 5px;
+    border: 2px solid rgb(31, 16, 51);
+    border-radius: 5px;
+    display: block;
+    outline: none;
+    border-radius: 0.4rem;
+    background-color: #f0efee;
+}
+
+.form-input::placeholder {
+    color: #7e7d79;
+    opacity: 1;
+    font-family: Poppins, sans-serif;
+}
+
+.form-label {
+    color: rgb(31, 16, 51);
+    display: block;
+    font-family: Fredoka, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#message-input {
+    resize: none;
+}
+
+#contact-input button {
+    height: 30px;
+    width: 100px;
+    background-color: #00a19b;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+#contact-input button:hover {
+    background: rgba(0,161,155,0.5);
+    transition: 0.3s all linear;
+}
+
+#contact-input button:focus {
+    outline: none;
+}
+
+/* Title Section */
+
+#title {
+    background-image: url('/dog-at-height.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-color: #e3e2db; 
+    border-bottom: 10px solid rgba(31, 16, 51, 0.9);  
+    filter: grayscale(20%);
+}
+
+.title-container {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    height: 30%;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title-container h1 {
+    margin: 0;
+    padding: 0;
+    font-family: Fredoka, sans-serif;
+    color: rgba(255, 255, 255);
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 1px 2px 1px black;
+}
+
+
+.title-container p {
+    font-family: Poppins, sans-serif;
+    color: rgba(235, 235, 235);
+    font-size: 20px;  
+    font-weight: bold;
+    text-shadow: 1px 2px 1px black;
+    padding-top: 30px;
+}
+
+
+/* About Section */
+
+#about-section {
+    background-color: #d3d3d3;
+}
+
+.info-card {
+    color: rgb(31, 16, 51);
+    box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.7);
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    
+}
+
+.about-container .info-card {
+    position: relative;
+    width: 350px;
+    height: 600px;
+    background: rgb(31, 16, 51);
+    border-radius: 20px;
+    border-top-left-radius: 70px;
+    overflow: hidden;
+} 
+
+.about-container .info-card .box {
+    position: absolute;
+    inset: 10px;
+    background: #d7d7d7;
+    border-radius: 10px;
+}
+
+.about-container .info-card .box .icon {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: rgb(31, 16, 51);
+    border-bottom-right-radius: 50%;
+    transition: 0.5s;
+}
+
+.about-container .info-card:hover .box .icon {
+    width: 100%;    
+}
+
+.about-container .info-card .box .icon::before {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-top-left-radius: 30px;
+    box-shadow: -5px -5px 0 5px rgb(31, 16, 51);
+}
+
+.about-container .info-card .box .icon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-top-left-radius: 30px;
+    box-shadow: -5px -5px 0 5px rgb(31, 16, 51);
+}
+
+.about-container .info-card .box .icon .icon-box {
+    position: absolute;
+    inset: 10px;
+    background: #d7d7d7;
+    border-radius: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.about-container .info-card .box .icon .icon-box .fa-solid {
+    font-size: 3em;
+    color: #000;
+} 
+
+.about-container .info-card .box .card-content {
+    position: absolute;
+    top: 125px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-container .info-card .box .card-content h3 {
+    color: #000;
+    font-family: Fredoka, sans-serif;
+    font-size: 1.35em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.about-container .info-card .box .card-content p {
+    color: #000;
+    font-family: Poppins, sans-serif;
+    font-size: 0.95;
+    /* opacity: 0.75; */
+    margin: 0 0 10px;
+}
+ 
+  
+/* Map Section */
+
+#map {
+    background-color: #d3d3d3;      
+}
+
+.postcode-container {
+    width: 100vw;
+    height: 88vh;
+    top: 45px;    
+    display: grid;    
+    grid-template-columns: 1fr 2fr; 
+    gap: 1.5rem;
+    background-color: #7e7d79;
+    box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: relative; 
+    
+}
+
+.form-container {
+    padding: 15px;
+    text-align: left;
+    font-family: Poppins, sans-serif; 
+    color: #edf0f1; 
+}
+
+.form-container h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.form-container p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container .fa-shield-dog {
+    color: rgba(31, 16, 51, 0.9);
+}
+
+.form-container li {
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container label {
+    font-weight: bold;
+}
+
+.postcode-form {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.postcode-form input {
+    width: 100%;
+    border: none;
+    outline: 0;
+    background: #9c9b96;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 0.4rem;
+}
+
+::placeholder { 
+    color: white;
+    opacity: 1; 
+}
+
+.postcode-form .send-button {
+    border: none;
+    outline: none;
+    background: #00a19b;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.postcode-form .send-button:hover {
+    background: rgba(0,161,155,0.5);
+    transition: 0.3s all linear;
+}
+
+.postcode-form .clear-button {
+    border: none;
+    outline: none;
+    background: #00a19b;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.postcode-form .clear-button:hover {
+    background: rgba(0,161,155,0.5);
+    transition: 0.3s all linear;
+}
+
+.map #map-container{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+/* Map Icons & Popups */
+
+.custom-icon {
+    color: rgba(31, 16, 51, 0.9); 
+    font-size: 30px; 
+    border-color: #000;
+    }
+
+/* Mobile Message */
+.mobile-message {
+    display: none;
+  }
+
+/* Tablet screen (portrait and landscape) */
+@media only screen and (max-width: 912px) {
+    header {
+      height: 15vh; /* Adjust header height for better visibility on tablets */
+    }
+    .contact-form {
+        left: 45%;
+    }
+    #title {
+        background-position: center top;
+    }
+    #about-section {
+       height: fit-content;
+       padding-top: 50px;
+    }
+    .postcode-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+    }
+    #map {
+        height: 100%;
+    }
+    .form-container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .postcode-form {
+        padding-left: 50px;
+        padding-right: 70px;
+    }
+    .map-container {
+        grid-row: 2 / 3;       
+        width: 100%;
+        height: 60%;
+        padding: 10px; 
+        margin: 5px;
+    }
+}
+  
+
+  
+
+/* Media Query: Mobile Devices */
+@media screen and (max-width: 800px) {
+    body {
+        scroll-behavior: none;
+        overflow: hidden;
+    }
+    
+    .mobile-message {
+      position: fixed;
+      height: 100%;
+      width: 100%;      
+      background-color: rgb(0, 0, 0);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      z-index: 1000;
+    }
+  }
