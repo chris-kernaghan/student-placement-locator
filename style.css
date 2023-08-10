@@ -245,6 +245,7 @@ nav li, a, button {
 
 #title {
     background-image: url('./dog-at-height.jpg');
+    color: #506A7A;
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
